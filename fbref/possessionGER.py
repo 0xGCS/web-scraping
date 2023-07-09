@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 import pandas as pd
+import openpyxl
 
 
 PATH = '{enter_path_of_chrome_driver}' #need to fill this in
