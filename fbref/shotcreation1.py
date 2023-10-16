@@ -6,7 +6,7 @@ from selenium.webdriver.common.keys import Keys
 from time import sleep
 import pickle
 
-PATH = '/Users/gregshaheen/Coding/chromedriver_mac64'
+PATH = '/path/to/your/driver'
 s = Service(PATH)
 driver = webdriver.Chrome(service=s)
 
